@@ -1,0 +1,83 @@
+/*resetar todo conteudo interno e externo da pagina inteira, usasse o "* */
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.content{
+  
+  width: 1200px;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+ text-align: justify;
+}
+
+header{
+  margin-top: 10px;
+  background-color: #fff;
+  height: 50px;
+  border: 4px solid #000;
+  
+}
+
+nav{
+  height: 30px;
+  background-color: green;
+  margin-top: 10px;
+}
+
+section{
+  margin-top: 10px;
+}
+
+figure{
+  text-align: justify;
+  background-color: none;
+}
+
+figure.formato-imagem{
+	border: 4px solid #000;
+}
+
+figure.formato-imagem img{
+ border: 0px solid red;
+ margin-left: 500px;
+}
+
+/*formatando banner imagem 4*/
+figure.formato-imagem-4{
+  border: 4px solid black;
+ position: relative ;
+}
+figure.formato-imagem-4 img{
+	border: 0px solid red;
+  width: 100%;
+  height: 100%;
+  
+}
+
+figure.formato-imagem-4 figcaption{
+  position: absolute ;
+  top:0px;
+  color: #000;
+  text-align: justify;
+  border: 0px solid red;
+  width: 600px;
+  margin-top: 120px;
+  margin-left: 320px;
+  opacity: 1;
+}
+
+footer{
+  margin-top:  10px;
+  border: 4px solid #000;
+}
+

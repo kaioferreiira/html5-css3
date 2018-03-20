@@ -1,0 +1,13 @@
+@font-face {
+	font-family: kaio-fonte-1;
+	src:url(../fontes/ACROTSRG.ttf);
+}
+
+h1{
+	font-family: kaio-fonte-1;
+	font-size: 30px;
+}
+
+p{
+	font-size: 20px;
+}

@@ -1,0 +1,40 @@
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header {
+    background-color: black;
+}
+
+img{
+    width: 10%;
+    height: auto;
+}
+
+nav {
+    max-width: 100%;
+    margin: 0;
+    margin-top: 5px;
+    padding: 10px ;
+    border: 1px solid black;
+}
+
+
+section {
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+
+article {
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+
+footer {
+    padding: ;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

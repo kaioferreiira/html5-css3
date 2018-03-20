@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+.principal{
+  background-color: red;
+  width: 1000px; 
+  margin: auto;
+  padding: 50px;
+}
+section{
+  background-color: #fff;
+  width: 1000px;
+  margin: auto;
+  padding: 100px;
+
+}

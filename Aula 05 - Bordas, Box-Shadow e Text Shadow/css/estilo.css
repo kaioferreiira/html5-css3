@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+
+.principal{
+  background-color: #ddd;
+  width: 400px;
+  height: 400px; 
+  margin: auto;
+  border: 10px solid black;
+  border-radius: 50px 150px 50px 150px;
+
+  /*sombreamento da bordar
+  box-shadow: 10px 10px 50px green;
+}
+
+/*
+.principal{
+  background-color: #ddd;
+  width: 400px;
+  height: 400px; 
+  margin: auto;
+  font-size: 15px;
+  Sombreamento para o texto 
+  text-shadow: 1px 1px 2px red;
+}*/

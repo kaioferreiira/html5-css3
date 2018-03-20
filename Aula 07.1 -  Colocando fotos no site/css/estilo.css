@@ -1,0 +1,47 @@
+/*resetar todo conteudo interno e externo da pagina inteira, usasse o "* */
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.content{
+	background-color:  #ddd;
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+
+
+body{
+	background-color: #ccc;
+}
+
+header{
+	background-image: url("imagens/background.jpg");
+}
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+p{
+	text-align: justify;
+}
+
+span{
+	text-decoration: line-through; font-weight: 500;
+}
+
+/* Formatando imagens com legendas do HTML5 e CSS3 */
+
+.formato-imagem{
+	border: 10px solid red;
+}
+.formato-imagem img{
+	width: 10%;
+	height: 10%;
+}
